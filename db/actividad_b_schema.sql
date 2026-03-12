@@ -41,10 +41,10 @@ CREATE TABLE registros_asistencia (
 
 -- Departamentos
 INSERT INTO departamentos (nombre, ubicacion) VALUES
-('Ingeniería', 'Edificio A, Piso 3'),
+('Ingenieria', 'Edificio A, Piso 3'),
 ('Recursos Humanos', 'Edificio B, Piso 1'),
 ('Ventas', 'Edificio A, Piso 1'),
-('Soporte Técnico', 'Edificio C, Piso 2');
+('Soporte Tecnico', 'Edificio C, Piso 2');
 
 -- Empleados (16 empleados en 4 departamentos)
 INSERT INTO empleados (nombre, email, departamento_id, puesto) VALUES
